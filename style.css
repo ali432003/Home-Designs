@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gloock', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.logo{
+    padding-left: 3rem;
+    width: 10rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+.main nav {
+    position: fixed;
+    top: 0;
+    left: -4rem;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(51, 46, 46,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    padding-left: 5%;
+    padding-right: 8%;
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2rem;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all .4s;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav ul li::after{
+    content: '';
+    height: 0.3rem;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0.1rem;
+    bottom: -1rem;
+    transition: .4s;
+}
+nav ul li:hover:after{
+    width: 100%;
+}
+.content {
+    width: 100%;
+    text-align: center;
+    display: block;
+    
+    /* Adjust the margin-top value as needed to position the content below the navbar */
+}
+  
+.content h1{
+    padding-top: 18rem;
+    word-spacing: 0.5rem;
+    font-size: 50px;
+    color: rgb(196, 178, 178);
+}
+.content p{
+    margin-top: 0.2rem ;
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-weight: 100;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+}
+.content .btn{
+    margin-top: 1.7rem;
+    letter-spacing: 0.2rem;
+    background-color:   #b6a618;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.0rem 2.5rem;
+    border: .2rem solid transparent;
+    border-radius: 3.0rem;
+    transition: .4s;
+    font-size: 1.5rem;
+    transition: .4s all;
+}
+.btn:hover{
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: rgba(51, 46, 46,0.09);
+    transform: scale(1.2);
+    border: 1px solid black;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Bedroom{
+    width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(bedroom.jpg);
+   background-size: cover;
+   background-position: center ;
+}
+.bedroom_content{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 15rem;
+}
+.bedroom_content h1{
+    cursor: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(196, 178, 178);;
+}
+.bedroom_content p{
+    cursor: none;
+    margin-top: 2rem;
+    color: rgba(255,255,255,0.6);
+}
+.dining{
+    width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(dining.jpg);
+   background-size: cover;
+   background-position: center ;
+}
+.bedroom_content{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 15rem;
+}
+.bedroom_content h1{
+    cursor: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(196, 178, 178);;
+}
+.bedroom_content p{
+    cursor: none;
+    margin-top: 2rem;
+    color: rgba(255,255,255,0.6);
+}
+.kitchen{
+    width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(kitchen.jpg);
+   background-size: cover;
+   background-position: center ;
+}
+.bedroom_content{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 15rem;
+}
+.bedroom_content h1{
+    cursor: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(196, 178, 178);;
+}
+.bedroom_content p{
+    cursor: none;
+    margin-top: 2rem;
+    color: rgba(255,255,255,0.6);
+}
+.backyard{
+    width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backyard.jpg);
+   background-size: cover;
+   background-position: center ;
+}
+.bedroom_content{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 15rem;
+}
+.bedroom_content h1{
+    cursor: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(196, 178, 178);;
+}
+.bedroom_content p{
+    cursor: none;
+    margin-top: 2rem;
+    color: rgba(255,255,255,0.6);
+}
+
